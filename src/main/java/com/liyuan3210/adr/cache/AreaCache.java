@@ -17,6 +17,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 import com.alibaba.fastjson.JSON;
@@ -84,8 +85,14 @@ public class AreaCache {
 		System.out.println("######初始化省市区");
 		System.out.println("######获取文件地址:"+cityPath);
 //		String regionJson = regionRpcService.getResion();
-		String regionJson = getTemplate(cityPath);
-		System.out.println("######省市区:"+regionJson);
+        String regionJson = null;
+        try {
+            regionJson = getTemplate(cityPath);
+        } catch (IOException e) {
+            e.printStackTrace();
+            throw new KnownChannelException("500", "缓存中没有找到省市区信息");
+        }
+        System.out.println("######省市区:"+regionJson);
 		if (regionJson == null) {
 			throw new KnownChannelException("500", "缓存中没有找到省市区信息");
 		}
@@ -207,9 +214,10 @@ public class AreaCache {
 		LOGGER.info("加载区（县）-省市区映射关系【" + areaCache.size() + "条】");
 		LOGGER.info("加载省市【" + areaNameCache.size() + "条】");
 	}
-public static String getTemplate(String fileName){
-        
-        File templateFile = new File(fileName);
+public static String getTemplate(String fileName) throws IOException {
+
+    ClassPathResource classPathResource = new ClassPathResource(fileName);
+        File templateFile = classPathResource .getFile();
         //如果文件不存，则返回空
         if(!templateFile.exists()){
             return null;

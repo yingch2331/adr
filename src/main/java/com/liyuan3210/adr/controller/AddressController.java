@@ -1,6 +1,8 @@
 package com.liyuan3210.adr.controller;
 
 import javax.servlet.http.HttpServletRequest;
+
+import com.liyuan3210.adr.rpc.TokenizerRpcService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +20,9 @@ import com.liyuan3210.adr.service.TokenizerService;
 public class AddressController {
 	@Autowired
 	private TokenizerService tokenizerService;
+
+	@Autowired
+	private TokenizerRpcService tokenizerRpcService;
 	
 	/**
 	 * 地址解析
@@ -27,7 +32,7 @@ public class AddressController {
 	 */
 	@CrossOrigin({"http://www.liyuan3210.com","http://127.0.0.1:8080",
 		"http://proxy.liyuan3210.com:10802","https://www.liyuan3210.com"})
-	@RequestMapping(value = "/resolveAddress", method = RequestMethod.POST)  
+	@RequestMapping(value = "/resolveAddress")
     public String resolveAddress(HttpServletRequest request,String address){
 		System.out.println("###系统接收参数:"+address);
 		AddressResponse addressResponse = new AddressResponse();

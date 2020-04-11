@@ -10,7 +10,9 @@ import com.liyuan3210.adr.dto.AreaDto;
 import com.liyuan3210.adr.rpc.TokenizerRpcService;
 import com.liyuan3210.adr.service.ImgOcrService;
 import com.liyuan3210.adr.service.TokenizerService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class TokenizerRpcServiceImpl implements TokenizerRpcService {
 
 	@Autowired
