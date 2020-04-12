@@ -35,7 +35,7 @@ public class TokenizerServiceImpl implements TokenizerService {
 	@Override
 	public AreaDto segmentation(String text) {
 		// 将text中大写字母全部转成小写
-		text = text.toLowerCase();
+//		text = text.toLowerCase();
 		
 		// 初始化地址明细对象
 		AreaDto areaDto = new AreaDto();
