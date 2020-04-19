@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<property name="appId" value="adr" />
+    <property name="log.dir" value="./logs/${appId}" />
+    <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{50} - %msg%n" />
+    <property name="jdbc.level" value="info" />
+
+	<!-- 上下文名称 -->
+	<contextName>${appId}</contextName>
+	
+    <appender name="file-appender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.dir}/run.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log.dir}/%d{yyyy-MM-dd}/run.%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+            <maxHistory>90</maxHistory>
+            <TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <MaxFileSize>200MB</MaxFileSize>
+            </TimeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${pattern}</pattern>
+        </encoder>
+    </appender>
+
+	<appender name="stdout-appender" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>${pattern}</pattern>
+		</encoder>
+	</appender> 
+
+    <root level="info">
+        <appender-ref ref="file-appender" />
+        <appender-ref ref="stdout-appender" />
+    </root>
+    
+</configuration>

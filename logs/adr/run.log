@@ -1,0 +1,159 @@
+2020-04-19 09:45:43.571 INFO  [main] com.liyuan3210.adr.Main - 正在启动中......
+2020-04-19 09:45:44.273 INFO  [main] com.liyuan3210.adr.Main - Starting Main on SimonYin.local with PID 1123 (/Users/yingch/work/git-project/mary/adr/target/classes started by yingch in /Users/yingch/work/git-project/mary/adr)
+2020-04-19 09:45:44.273 INFO  [main] com.liyuan3210.adr.Main - The following profiles are active: sit
+2020-04-19 09:45:44.332 INFO  [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42721fe: startup date [Sun Apr 19 09:45:44 CST 2020]; root of context hierarchy
+2020-04-19 09:45:44.509 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2020-04-19 09:45:45.703 INFO  [main] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 09:45:45.715 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 09:45:45.717 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-04-19 09:45:45.810 INFO  [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 09:45:45.810 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1478 ms
+2020-04-19 09:45:45.936 INFO  [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-04-19 09:45:45.942 INFO  [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-19 09:45:45.942 INFO  [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-19 09:45:45.942 INFO  [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-19 09:45:45.943 INFO  [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-19 09:45:46.013 INFO  [main] org.apdplat.word.segmentation.SegmentationFactory - 构造分词实现类：org.apdplat.word.segmentation.impl.MaximumMatching
+2020-04-19 09:45:46.016 INFO  [main] org.apdplat.word.util.WordConfTools - 开始加载配置文件
+2020-04-19 09:45:46.017 INFO  [main] org.apdplat.word.util.WordConfTools - 加载配置文件：word.conf
+2020-04-19 09:45:46.018 INFO  [main] org.apdplat.word.util.WordConfTools - 加载配置文件：word.local.conf
+2020-04-19 09:45:46.018 INFO  [main] org.apdplat.word.util.WordConfTools - 配置文件加载完毕，耗时2 毫秒，配置项数目：33
+2020-04-19 09:45:46.018 INFO  [main] org.apdplat.word.util.WordConfTools - 配置信息：
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 1、auto.detect=true
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 2、bigram.double.array.trie.size=5300000
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 3、bigram.path=
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 4、dic.class=org.apdplat.word.dictionary.impl.DictionaryTrie
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 5、dic.dump.path=
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 6、dic.path=classpath:dic/ext_name_word.txt,classpath:dic/ext_area_word.txt
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 7、dictionary.trie.index.size=48000
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 8、double.array.dictionary.trie.size=5120000
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 9、intercept.length=16
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 10、keep.punctuation=false
+2020-04-19 09:45:46.027 INFO  [main] org.apdplat.word.util.WordConfTools - 11、keep.whitespace=false
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 12、ngram=bigram
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 13、parallel.seg=true
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 14、part.of.speech.des.path=
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 15、part.of.speech.dic.path=
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 16、person.name.recognize=true
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 17、punctuation.path=classpath:punctuation.txt
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 18、quantifier.path=classpath:quantifier.txt
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 19、recognition.tool.enabled=true
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 20、redis.host=localhost
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 21、redis.port=6379
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 22、stopwords.path=classpath:dic/ext_stopword.txt
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 23、surname.path=classpath:surname.txt
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 24、tagging.antonym=false
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 25、tagging.pinyin.acronym=false
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 26、tagging.pinyin.full=false
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 27、tagging.synonym=false
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 28、trigram.double.array.trie.size=9800000
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 29、trigram.path=
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 30、word.antonym.path=
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 31、word.refine.combine.max.length=3
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 32、word.refine.path=classpath:word_refine.txt
+2020-04-19 09:45:46.028 INFO  [main] org.apdplat.word.util.WordConfTools - 33、word.synonym.path=
+2020-04-19 09:45:46.030 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - dic.class=org.apdplat.word.dictionary.impl.DictionaryTrie
+2020-04-19 09:45:46.032 INFO  [main] org.apdplat.word.dictionary.impl.DictionaryTrie - 初始化词典：org.apdplat.word.dictionary.impl.DictionaryTrie
+2020-04-19 09:45:46.034 INFO  [main] org.apdplat.word.util.AutoDetector - 开始加载资源
+2020-04-19 09:45:46.034 INFO  [main] org.apdplat.word.util.AutoDetector - classpath:dic/ext_name_word.txt,classpath:dic/ext_area_word.txt,classpath:punctuation.txt,,,
+2020-04-19 09:45:46.034 INFO  [main] org.apdplat.word.util.AutoDetector - 类路径资源：dic/ext_name_word.txt
+2020-04-19 09:45:46.034 INFO  [main] org.apdplat.word.util.AutoDetector - 类路径资源URL：file:/Users/yingch/work/git-project/mary/adr/target/classes/dic/ext_name_word.txt
+2020-04-19 09:45:46.034 INFO  [main] org.apdplat.word.util.AutoDetector - 加载资源：/Users/yingch/work/git-project/mary/adr/target/classes/dic/ext_name_word.txt
+2020-04-19 09:45:46.034 INFO  [main] org.apdplat.word.util.AutoDetector - 监控文件：/Users/yingch/work/git-project/mary/adr/target/classes/dic/ext_name_word.txt
+2020-04-19 09:45:46.037 INFO  [main] org.apdplat.word.util.DirectoryWatcher - 注册事件：ENTRY_MODIFY
+2020-04-19 09:45:46.037 INFO  [main] org.apdplat.word.util.DirectoryWatcher - 注册事件：ENTRY_DELETE
+2020-04-19 09:45:46.048 INFO  [main] org.apdplat.word.util.DirectoryWatcher - 监控目录:/Users/yingch/work/git-project/mary/adr/target/classes/dic
+2020-04-19 09:45:46.059 INFO  [main] org.apdplat.word.util.AutoDetector - 类路径资源：dic/ext_area_word.txt
+2020-04-19 09:45:46.059 INFO  [main] org.apdplat.word.util.AutoDetector - 类路径资源URL：file:/Users/yingch/work/git-project/mary/adr/target/classes/dic/ext_area_word.txt
+2020-04-19 09:45:46.059 INFO  [main] org.apdplat.word.util.AutoDetector - 加载资源：/Users/yingch/work/git-project/mary/adr/target/classes/dic/ext_area_word.txt
+2020-04-19 09:45:46.062 INFO  [main] org.apdplat.word.util.AutoDetector - 监控文件：/Users/yingch/work/git-project/mary/adr/target/classes/dic/ext_area_word.txt
+2020-04-19 09:45:46.062 INFO  [main] org.apdplat.word.util.DirectoryWatcher - 注册事件：ENTRY_MODIFY
+2020-04-19 09:45:46.062 INFO  [main] org.apdplat.word.util.DirectoryWatcher - 注册事件：ENTRY_DELETE
+2020-04-19 09:45:46.062 INFO  [main] org.apdplat.word.util.DirectoryWatcher - 监控目录:/Users/yingch/work/git-project/mary/adr/target/classes/dic
+2020-04-19 09:45:46.063 INFO  [main] org.apdplat.word.util.AutoDetector - 类路径资源：punctuation.txt
+2020-04-19 09:45:46.063 INFO  [main] org.apdplat.word.util.AutoDetector - 类路径资源URL：jar:file:/Users/yingch/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/punctuation.txt
+2020-04-19 09:45:46.063 INFO  [main] org.apdplat.word.util.AutoDetector - 加载资源：classpath:punctuation.txt
+2020-04-19 09:45:46.064 INFO  [main] org.apdplat.word.util.AutoDetector - 加载资源 3766 行
+2020-04-19 09:45:46.065 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 初始化词典
+2020-04-19 09:45:46.067 INFO  [main] org.apdplat.word.util.AutoDetector - 开始加载资源
+2020-04-19 09:45:46.067 INFO  [main] org.apdplat.word.util.AutoDetector - classpath:surname.txt
+2020-04-19 09:45:46.067 INFO  [main] org.apdplat.word.util.AutoDetector - 类路径资源：surname.txt
+2020-04-19 09:45:46.067 INFO  [main] org.apdplat.word.util.AutoDetector - 类路径资源URL：jar:file:/Users/yingch/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/surname.txt
+2020-04-19 09:45:46.067 INFO  [main] org.apdplat.word.util.AutoDetector - 加载资源：classpath:surname.txt
+2020-04-19 09:45:46.068 INFO  [main] org.apdplat.word.util.AutoDetector - 加载资源 508 行
+2020-04-19 09:45:46.068 INFO  [main] org.apdplat.word.recognition.PersonName - 初始化百家姓
+2020-04-19 09:45:46.069 INFO  [main] org.apdplat.word.recognition.PersonName - 百家姓初始化完毕，单姓个数：446，复姓个数：60
+2020-04-19 09:45:46.069 INFO  [main] org.apdplat.word.util.AutoDetector - 完成加载资源，耗时2 毫秒
+2020-04-19 09:45:46.070 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 将 60 个复姓加入词典
+2020-04-19 09:45:46.105 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词数目：3690，词典最大词长：15
+2020-04-19 09:45:46.105 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长  1 的词数为：47
+2020-04-19 09:45:46.105 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长  2 的词数为：480
+2020-04-19 09:45:46.105 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长  3 的词数为：2721
+2020-04-19 09:45:46.105 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长  4 的词数为：213
+2020-04-19 09:45:46.105 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长  5 的词数为：52
+2020-04-19 09:45:46.105 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长  6 的词数为：11
+2020-04-19 09:45:46.105 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长  7 的词数为：83
+2020-04-19 09:45:46.105 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长  8 的词数为：23
+2020-04-19 09:45:46.105 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长  9 的词数为：22
+2020-04-19 09:45:46.106 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长 10 的词数为：24
+2020-04-19 09:45:46.106 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长 11 的词数为：9
+2020-04-19 09:45:46.106 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长 12 的词数为：2
+2020-04-19 09:45:46.106 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长 13 的词数为：1
+2020-04-19 09:45:46.106 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词长 15 的词数为：2
+2020-04-19 09:45:46.106 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词典平均词长：3.1753387
+2020-04-19 09:45:46.107 INFO  [main] org.apdplat.word.dictionary.impl.DictionaryTrie - 冲突次数：0
+2020-04-19 09:45:46.107 INFO  [main] org.apdplat.word.dictionary.impl.DictionaryTrie - 总槽数：48000
+2020-04-19 09:45:46.107 INFO  [main] org.apdplat.word.dictionary.impl.DictionaryTrie - 用槽数：998
+2020-04-19 09:45:46.107 INFO  [main] org.apdplat.word.dictionary.impl.DictionaryTrie - 使用率：2.0791667%
+2020-04-19 09:45:46.107 INFO  [main] org.apdplat.word.dictionary.impl.DictionaryTrie - 剩槽数：47002
+2020-04-19 09:45:46.203 INFO  [main] org.apdplat.word.dictionary.DictionaryFactory - 词典初始化完毕，耗时：138 毫秒
+2020-04-19 09:45:46.204 INFO  [main] org.apdplat.word.util.AutoDetector - 完成加载资源，耗时170 毫秒
+2020-04-19 09:45:46.213 INFO  [main] org.apdplat.word.util.AutoDetector - 开始加载资源
+2020-04-19 09:45:46.214 INFO  [main] org.apdplat.word.util.AutoDetector - classpath:punctuation.txt
+2020-04-19 09:45:46.214 INFO  [main] org.apdplat.word.util.AutoDetector - 类路径资源：punctuation.txt
+2020-04-19 09:45:46.214 INFO  [main] org.apdplat.word.util.AutoDetector - 类路径资源URL：jar:file:/Users/yingch/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/punctuation.txt
+2020-04-19 09:45:46.214 INFO  [main] org.apdplat.word.util.AutoDetector - 加载资源：classpath:punctuation.txt
+2020-04-19 09:45:46.214 INFO  [main] org.apdplat.word.util.AutoDetector - 加载资源 48 行
+2020-04-19 09:45:46.214 INFO  [main] org.apdplat.word.recognition.Punctuation - 初始化标点符号
+2020-04-19 09:45:46.215 INFO  [main] org.apdplat.word.recognition.Punctuation - 标点符号初始化完毕，标点符号个数：52
+2020-04-19 09:45:46.215 INFO  [main] org.apdplat.word.util.AutoDetector - 完成加载资源，耗时1 毫秒
+2020-04-19 09:45:46.226 INFO  [ForkJoinPool.commonPool-worker-1] org.apdplat.word.util.AutoDetector - 开始加载资源
+2020-04-19 09:45:46.226 INFO  [ForkJoinPool.commonPool-worker-1] org.apdplat.word.util.AutoDetector - classpath:quantifier.txt
+2020-04-19 09:45:46.226 INFO  [ForkJoinPool.commonPool-worker-1] org.apdplat.word.util.AutoDetector - 类路径资源：quantifier.txt
+2020-04-19 09:45:46.226 INFO  [ForkJoinPool.commonPool-worker-1] org.apdplat.word.util.AutoDetector - 类路径资源URL：jar:file:/Users/yingch/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/quantifier.txt
+2020-04-19 09:45:46.227 INFO  [ForkJoinPool.commonPool-worker-1] org.apdplat.word.util.AutoDetector - 加载资源：classpath:quantifier.txt
+2020-04-19 09:45:46.228 INFO  [ForkJoinPool.commonPool-worker-1] org.apdplat.word.util.AutoDetector - 加载资源 164 行
+2020-04-19 09:45:46.228 INFO  [ForkJoinPool.commonPool-worker-1] org.apdplat.word.recognition.Quantifier - 初始化数量词
+2020-04-19 09:45:46.228 INFO  [ForkJoinPool.commonPool-worker-1] org.apdplat.word.recognition.Quantifier - 数量词初始化完毕，数量词个数：164
+2020-04-19 09:45:46.228 INFO  [ForkJoinPool.commonPool-worker-1] org.apdplat.word.util.AutoDetector - 完成加载资源，耗时2 毫秒
+2020-04-19 09:45:46.229 INFO  [main] org.apdplat.word.segmentation.SegmentationFactory - 构造分词实现类：org.apdplat.word.segmentation.impl.ReverseMaximumMatching
+2020-04-19 09:45:46.839 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42721fe: startup date [Sun Apr 19 09:45:44 CST 2020]; root of context hierarchy
+2020-04-19 09:45:46.895 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/resolveAddress]}" onto public java.lang.String com.liyuan3210.adr.controller.AddressController.resolveAddress(javax.servlet.http.HttpServletRequest,java.lang.String)
+2020-04-19 09:45:46.899 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-19 09:45:46.900 INFO  [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-19 09:45:46.932 INFO  [main] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-19 09:45:46.932 INFO  [main] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-19 09:45:46.969 INFO  [main] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-19 09:45:47.166 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-04-19 09:45:47.181 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 09:45:47.189 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 09:45:47.214 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-04-19 09:45:47.230 INFO  [main] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2020-04-19 09:45:47.235 INFO  [main] com.liyuan3210.adr.Main - Started Main in 3.451 seconds (JVM running for 5.469)
+2020-04-19 10:49:07.093 INFO  [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1583489181] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-19 10:49:07.100 INFO  [http-nio-8080-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-19 10:49:07.101 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-19 10:49:07.123 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2020-04-19 10:49:07.162 INFO  [http-nio-8080-exec-1] org.apdplat.word.util.AutoDetector - 没有资源可以加载
+2020-04-19 10:49:07.166 INFO  [http-nio-8080-exec-1] org.apdplat.word.util.AutoDetector - 没有资源可以加载
+2020-04-19 10:49:07.266 INFO  [http-nio-8080-exec-1] c.liyuan3210.adr.service.impl.TokenizerServiceImpl - 检查语句【青浦区盈港东路88号李四15618552722】中是否包含区（县），分词结果：["青浦区","盈","港","东路","88号","李四","15618552722"]
+2020-04-19 10:49:07.418 INFO  [http-nio-8080-exec-1] com.liyuan3210.adr.cache.AreaCache - 加载区（县）-省市区映射关系【2861条】
+2020-04-19 10:49:07.419 INFO  [http-nio-8080-exec-1] com.liyuan3210.adr.cache.AreaCache - 加载省市【398条】
+2020-04-19 10:49:07.420 INFO  [http-nio-8080-exec-1] c.liyuan3210.adr.service.impl.TokenizerServiceImpl - 原语句【青浦区盈港东路88号李四】，分词结果：["青浦区","盈","港","东路","88号","李四"]
+2020-04-19 11:08:19.821 INFO  [http-nio-8080-exec-4] c.liyuan3210.adr.service.impl.TokenizerServiceImpl - 检查语句【青浦区盈港东路88号李四15618552722】中是否包含区（县），分词结果：["青浦区","盈","港","东路","88号","李四","15618552722"]
+2020-04-19 11:09:49.105 INFO  [http-nio-8080-exec-4] c.liyuan3210.adr.service.impl.TokenizerServiceImpl - 原语句【青浦区盈港东路88号李四】，分词结果：["青浦区","盈","港","东路","88号","李四"]
+2020-04-19 11:16:42.208 INFO  [http-nio-8080-exec-8] c.liyuan3210.adr.service.impl.TokenizerServiceImpl - 检查语句【上海上海市青浦区盈港东路88号李四15618552722】中是否包含区（县），分词结果：["上海","上海市","青浦区","盈","港","东路","88号","李四","15618552722"]
+2020-04-19 11:16:42.210 INFO  [http-nio-8080-exec-8] c.liyuan3210.adr.service.impl.TokenizerServiceImpl - 原语句【上海上海市青浦区盈港东路88号李四】，分词结果：["上海","上海市","青浦区","盈","港","东路","88号","李四"]
+2020-04-19 11:17:08.136 INFO  [http-nio-8080-exec-10] c.liyuan3210.adr.service.impl.TokenizerServiceImpl - 检查语句【上海上海市青浦区盈港东路88号李四15618552722】中是否包含区（县），分词结果：["上海","上海市","青浦区","盈","港","东路","88号","李四","15618552722"]
+2020-04-19 11:18:11.569 INFO  [http-nio-8080-exec-10] c.liyuan3210.adr.service.impl.TokenizerServiceImpl - 原语句【上海上海市青浦区盈港东路88号李四】，分词结果：["上海","上海市","青浦区","盈","港","东路","88号","李四"]
+2020-04-19 11:19:44.668 INFO  [http-nio-8080-exec-5] c.liyuan3210.adr.service.impl.TokenizerServiceImpl - 检查语句【云南省昆明市盈港东路88号李四15618552722】中是否包含区（县），分词结果：["云南省","昆明市","盈","港","东路","88号","李四","15618552722"]
